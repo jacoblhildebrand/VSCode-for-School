@@ -1,0 +1,6 @@
+first_name = input('What is your fist name?')
+last_name = input('What si your last name?')
+fav_color = input('What is your favorite color?')
+print('Hello there,')
+print(first_name + ' '+  last_name)
+print('Your favorite Color is ' +  fav_color)
