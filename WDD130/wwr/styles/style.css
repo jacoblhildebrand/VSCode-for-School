@@ -1,0 +1,134 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* Centering navigation links */
+nav a {
+    text-align: center;
+    color: #5E503F;
+    text-decoration: none;
+}
+
+/* Centering heading elements within #hero-msg */
+#hero-msg h1,
+#hero-msg h4 {
+    text-align: center;
+}
+
+/* Centering elements with class .button-box */
+.button-box {
+    text-align: center;
+}
+
+/* Centering section content within main */
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+/* Setting background color for body */
+body {
+    background-color: #276FBF;
+    color: white; /* Setting text color to white */
+}
+
+/* Setting background color for header */
+header {
+    background-color: #DF9B6D;
+}
+
+/* Setting background color for navigation links on hover */
+nav a:hover {
+    background-color: #9BC1BC;
+    color: #276FBF; /* Setting text color on hover */
+}
+
+/* Changing text color for element with class .home-title */
+.home-title {
+    color: #9BC1BC;
+}
+
+/* Changing text color for heading element h4 */
+h4 {
+    color: #9BC1BC;
+}
+
+/* Setting background color for elements with class .book and .join */
+.book,
+.join {
+    background-color: #5E503F;
+    color: white; /* Setting text color to white */
+    text-decoration: none;
+}
+
+/* Setting background color for elements with class .book and .join on hover */
+.book:hover,
+.join:hover {
+    background-color: #DF9B6D;
+    color: #276FBF;
+}
+
+/* Setting background color for element with ID #background */
+#background {
+    background-color: #276FBF;
+    color: white; /* Setting text color to white */
+}
+
+/* Setting background color for element with class .msg */
+.msg {
+    background-color: #9BC1BC;
+}
+
+/* Changing text color for heading element h2 within element with class .msg */
+.msg h2 {
+    color: #5E503F;
+}
+
+/* Changing text color for paragraph elements within element with class .msg */
+.msg p {
+    color: #5E503F;
+}
+
+/* Setting background color for footer */
+footer {
+    background-color: #5E503F;
+    color: white; /* Setting text color to white */
+}
+
+/* Changing text color for links within footer */
+footer a {
+    color: #9BC1BC;
+    text-decoration: none;
+}
+
+
+/* Changing text color for links within footer on hover */
+footer a:hover {
+    color: white;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+/* Adding width to the logo */
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+}
+
+/* Giving a responsive width to the hero image */
+#hero-img {
+    width: 100%;
+}
