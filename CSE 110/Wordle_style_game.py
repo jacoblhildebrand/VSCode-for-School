@@ -15,7 +15,7 @@ def main():
     print("Welcome to the word guessing game!")
 
     # List of secret words
-    secret_words = ["mosiah", "moroni",  "temple", "jesus", "grace", "serve", "ether", "nephi", "alma", "helaman", "mormon", "omni", "lehi", "prayer", "laman", "lemuel", "jacob", "enos", "angel", "plates", "jarom", "spirit", "save"  ]
+    secret_words = ["mosiah", "moroni",  "temple", "jesus", "grace", "serve", "ether", "nephi", "alma", "helaman", "mormon", "omni", "lehi", "prayer", "laman", "lemuel", "jacob", "enos", "angel", "plates", "jarom", "spirit", "save", "christ", "mission", "sariah", "sam", "abinidi", "ammon", "noah", "gadianton", "ammaron", "cumorah" ]
 
     # Select a random word
     secret_word = random.choice(secret_words)
