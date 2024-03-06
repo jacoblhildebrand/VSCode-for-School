@@ -63,7 +63,7 @@ main section {
 
 .home-grid {
     display: grid;
-    grid-template-columns: 10fr;
+    grid-template-columns: repeat(10,1fr);
 }
 
 #background {
@@ -182,6 +182,21 @@ h4 {
     grid-row: 2/3;
 }
 
+.salmon-card{
+    margin:100px 0;
+    grid-column: 2/10;
+}
+
+.desolation-card{
+    margin: 100px 0;
+    grid-column: 2/10;
+}
+
+.grand-card{
+    margin: 100px 0;
+    grid-column: 2/10;
+}
+
 .card-img {
     border: 10px solid #DF9B6D;
     width: 100%;
@@ -191,7 +206,7 @@ h4 {
 
 .card-img:hover {
     opacity: .6;
-    transform: scale(1.1);
+    transform: scale(1.025);
 }
 
 .mountains {
