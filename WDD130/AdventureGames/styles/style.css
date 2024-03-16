@@ -1,0 +1,244 @@
+:root {
+    --primary-color: #8096A4;
+    --secondary-color: #928F6E;
+    --accent1-color: #34252F;
+    --accent2-color: #0B5351;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Alice&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Centering navigation links */
+nav a {
+    font-family: 'Alegreya', serif;
+    text-align: center;
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 35px;
+}
+
+/* Centering heading elements within #hero-msg */
+#hero-msg h1,
+#hero-msg h4 {
+    font-family: 'Alegreya', serif;
+    text-align: center;
+    color: white;
+}
+
+/* Centering elements with class .button-box */
+.button-box {
+    font-family: 'Alegreya', serif;
+    text-align: center;
+}
+
+/* Centering section content within main */
+main section {
+    font-family: 'Alegreya', serif;
+    text-align: center;
+}
+
+/* Changing text color for element with class .home-title */
+.home-title {
+    font-family: 'Alice', serif;
+    font-size: 2em;
+    color: var(--accent1-color);
+    margin-top: 10px;
+}
+
+/* Setting background color for body */
+body {
+    background-color: var(--secondary-color);
+    color: white; /* Setting text color to white */
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting background color for header */
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: var(--accent1-color);
+}
+
+/* Setting background color for navigation links on hover */
+nav a:hover {
+    background-color: var(--accent2-color);
+    color: var(--primary-color); /* Setting text color on hover */
+}
+
+/* Changing text color for heading element h4 */
+h4 {
+    color: var(--accent1-color);
+}
+
+/* Setting background color for elements with class .book and .join */
+.book,
+.join {
+    font-family: 'Alegreya', serif;
+    background-color: var(--primary-color);
+    color: white; /* Setting text color to white */
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+/* Setting background color for elements with class .book and .join on hover */
+.book:hover,
+.join:hover {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+}
+
+/* Setting background color for element with ID #background */
+#background {
+    grid-column: 1/11;
+    grid-row: 4/9;
+    background-color: var(--secondary-color);
+    color: white; /* Setting text color to white */
+}
+
+/* Setting background color for element with class .msg */
+.msg {
+    background-color: var(--accent1-color);
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 150px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px var(--accent1-color);
+}
+
+/* Changing text color for heading element h2 within element with class .msg */
+.msg h2 {
+    font-family: 'Alice', serif;
+    color: var(--primary-color);
+}
+
+/* Changing text color for paragraph elements within element with class .msg */
+.msg p {
+    font-family: 'Alegreya', serif;
+    color: var(--primary-color);
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+
+.rivers-card  {
+    margin: 200px 0;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.camping-card{
+    margin: 200px 0;
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+
+.rapids-card {
+    margin: 200px 0;
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+
+.salmon-card{
+    margin:100px 0;
+    grid-column: 2/10;
+}
+
+.desolation-card{
+    margin: 100px 0;
+    grid-column: 2/10;
+}
+
+.grand-card{
+    margin: 100px 0;
+    grid-column: 2/10;
+}
+
+.card-img {
+    border: 10px solid var(--accent1-color);
+    width: 100%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px var(--accent2-color);
+}
+
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.025);
+}
+
+.mountains {
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px var(--accent2-color);
+}
+
+/* Setting background color for footer */
+footer {
+    background-color: var(--primary-color);
+    color: white; /* Setting text color to white */
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Changing text color for links within footer */
+footer a {
+    font-family: 'Alegreya', serif;
+    color: var(--accent1-color);
+    text-decoration: none;
+}
+
+/* Changing text color for links within footer on hover */
+footer a:hover {
+    color: white;
+}
+
+footer p {
+    font-family: 'Alegreya', serif;
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+/* Adding width to the logo */
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+/* Giving a responsive width to the hero image */
+#hero-img {
+    width: 100%;
+}
+
+
