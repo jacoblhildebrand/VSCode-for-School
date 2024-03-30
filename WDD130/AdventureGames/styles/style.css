@@ -42,17 +42,19 @@ main section {
     font-size: large;
     margin-left: 5%;
     margin-right: 5%;
+    
 }
 main h1 {
     font-family: 'Alice' , serif;
     text-align: center;
     font-size: xx-large;
     margin: 50px;
+    
 }
 
 main img  {
     margin: 20px;
-    width: 95%;
+    width: 75%;
     height: auto;
     max-width: 100%;
 }
